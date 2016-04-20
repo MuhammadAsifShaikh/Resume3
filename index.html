@@ -1,0 +1,455 @@
+<!doctype html>
+	<head>
+		<title>Muhamamd Asif CV</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,900,700,500' rel='stylesheet' type='text/css'">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300' rel='stylesheet' type='text/css'">
+        <!--<link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'">-->
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+		/*@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);*/
+		body{
+		    width:100%;
+		    color:#000;
+		    /*font-family: 'Oswald', sans-serif;*/
+			font-family: 'Roboto', sans-serif;
+	        font-size:16px;
+		    margin:0 ;
+		    padding:0px;
+		}
+		.wrapper{
+		    max-width:900px;
+		    width:100%;
+		    margin:0 auto;
+			box-shadow: 0px 8px 28px 7px rgba(0, 0, 0, 0.15);
+			margin-top: 34px;
+			margin-bottom: 34px;
+		}
+		h1, h3{
+		    font-weight: 300;
+		}
+		h1{
+		    font-weight: 400;
+			font-size: 44px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			padding-top: 30px;
+			letter-spacing: 7px;
+		}
+		h2{
+		    font-weight: 400;
+		    font-size: 22px;
+		    float: left;
+		    margin: 0px;
+		    padding-top: 3px;
+		}
+		h3{
+		    color: #1c7ac4;
+		    float: left;
+		    width: 100%;
+		    margin: 6px 0px 2px 0px;
+			font-weight: 400;
+			color:#707B8C;
+		}
+		h4 {
+		    float: left;
+		    width: 100%;
+		    margin: 0px 0;
+		}
+		.aside-container hr{
+			border:none;
+			border-top:1px solid #fff;
+			width:100%;
+			float: left;
+			margin: 27px 0px 27px 0px;
+		}
+		.right .prof-name hr{
+			border:none;
+			border-top:3px solid #000205;
+			width:100%;
+			float: left;
+			margin-top: 27px;
+		}
+		.right hr {
+			border:none;
+			border-top:2px solid #d2d2d2;
+			width:100%;
+			float: left;
+			margin-top: 27px;
+		}
+		h5 {
+		    float: left;
+		    margin: 2px 0px;
+		}
+		p{
+		    float:left;
+		    font-size:15px;
+		    font-weight: 300;
+		    text-align: justify;
+		}
+		span{
+		    color:#08121d;
+		}
+		.contact-me{
+			width:100%;
+			margin:0 auto;
+		}
+		.details-cont span.email{
+		    background:url(images/email.png) no-repeat scroll center ;
+			width: 100%;
+			height: 30px;
+			background-size: contain;
+			float: left;
+			margin-bottom: 5px;
+		}
+		.details-cont span.mobile{
+		    background:url(images/technology.png) no-repeat scroll center ;
+			width: 100%;
+			height: 30px;
+			background-size: contain;
+			float: left;
+			margin-bottom: 5px;
+		}
+		.details-cont span.location{
+		    background:url(images/location.png) no-repeat scroll center;
+			width: 100%;
+			height: 30px;
+			background-size: contain;
+			float: left;
+			margin-bottom: 5px;
+		}
+		.details-cont span.portfolio{
+		    background:url(images/web.png) no-repeat scroll center;
+			width: 100%;
+			height: 30px;
+			background-size: contain;
+			float: left;
+			margin-bottom: 5px;
+			
+		}
+		.details-cont a{
+			color:#fff;
+		}
+		.details-cont p{
+			color:#1cc4b2;
+		}
+		a{
+		    text-decoration: none;
+		    color:#1cc4b2;
+		}
+		.profile-image{
+		    background: url(images/cvimage.png) no-repeat scroll center;
+		    width: 100%;
+		    height: 215px;
+		    margin: 18px 0px;
+		    background-size: contain;
+		}
+		.blocks{
+		    width: 24px;
+		    height: 13px;
+		    background: #1c7ac4;
+		    float: left;
+		    margin-top: 11px;
+			display:none;
+		}
+		.top{
+		    width:100%;
+		    margin:0 auto;
+		}
+		.aside-left-wrapper{
+			width: 33%;
+		    float: left;
+		    padding: 0px 6px;
+		}
+		.left-border, .right-border{
+			width:2%;
+			background:#1b2c3e;
+			float:left;
+			overflow:hidden;
+			height: 1158px;
+			overflow: hidden;
+			max-height: 1275px;
+		}
+		.aside-container{
+		    width: 63%;
+			float: left;
+			padding: 0px 40px;
+			background: #1b2c3e;
+			margin: 0px 4px;
+			color: #fff;
+			padding-bottom: 45px;
+		}
+		.aside-container p {
+			font-size: 15px;
+			font-weight: 300;
+			text-align: center;
+		}
+		.aside-container h2{
+		    font-weight: 300;
+		    font-size: 27px;
+		    margin: 0px;
+			text-align:center;
+			float: none;
+			letter-spacing: 2px;
+			font-style:normal;
+		    
+		}
+		.aside-container .top p{
+		    margin-top: 0px;
+		    width: 100%;
+		    font-size: 17px;
+		    font-style: normal;
+		}
+		.aside-container .about{
+		    width:100%;
+		}
+		.aside-container .details p{
+			font-size: 13px;
+		    font-weight: 300;
+		    margin: 10px 0px;
+		    color: #818181;
+			width:100%;
+			font-style: normal;
+		}
+		.aside-container .details p span{
+			color: #1C7AC4;
+		}
+		.detail-line{
+			width:100%;
+			height:1px;
+			background:#E3E2E2;
+			float:left;
+		}
+		.prof-name h2{
+			color: #707B8C;
+		}
+		.details-cont{
+			float:left;
+			padding-top:20px;
+		}
+		section.right {
+		    float: left;
+		    width: 59%;
+		    padding: 30px 25px;
+		}
+		section.right .softwere{
+			padding-top:30px;
+			float:left;
+		}
+		.objective{
+			display:none;
+		}
+		.experience-location h3 span {
+		    float: right;
+		    font-weight: 500;
+		    font-size: 16px;
+		}
+		ul{
+		    float: left;
+			margin: 0px;
+			padding:0px;
+			width: 100%;
+			list-style: none;
+		}
+		ul li{
+		    color: #1b2c3e;
+			list-style: none;
+			position: relative;
+			width: 33%;
+			float: left;
+			margin: 34px -5px 0px 5px;
+		}
+		ul li span{
+		    float:left;
+		}
+		ul li span.fill-back-color{
+		    width: 70%;
+		    height: 4px;
+		    background: #E2E5E6;
+		    margin-top: 16px;
+		}
+		ul li span.fill-back-color span.fill{
+		    float: left;
+		    width: 95%;
+		    height: 4px;
+		    background: #14a4aa;
+		    position:relative;
+		}
+		ul li span.fill-back-color span.fill p {
+		    position: absolute;
+			top: -13px;
+			right: 0;
+			margin: 0px;
+			font-size: 11px;
+			font-weight: 400;
+		}
+		ul li span.illustrator span.fill{
+		    width: 90%;
+		}
+		ul li span.premier span.fill{
+		    width: 50%;
+		}
+		ul li span.after-effects span.fill{
+		    width: 65%;
+		}
+		ul li span.html span.fill{
+		    width: 50%;
+		}
+		ul li span.css span.fill{
+		    width: 55%;
+		}
+		section .experience{
+			padding-top: 20px;
+			float: left;
+			width:100%;
+		}
+		.headings .edcation{
+			background-color: #F6F6F6;
+			float: left;
+			width: 98%;
+			padding: 0px 6px;
+		}
+		.headings .ed-padding{
+			padding: 0px 6px;
+		}
+		.last-line{
+			max-width:500px;
+			width:50%;
+			height:1px;
+			background:#1C7AC4;
+			margin:0 auto;
+		}
+		footer{
+			float:left;
+			
+			}
+		footer address ul {
+			float:left;
+			padding-top:10px;
+			}
+		footer address ul li{
+			width:100%;
+			float:left;
+			margin:5px 0px;
+			padding:0px 0px;
+			}
+			footer address ul li p{
+			margin:0px 0px;
+			padding:0px 0px;
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+		<div class="aside-left-wrapper">
+        <div class="left-border"></div>
+			<aside class="aside-container">
+				<div class="top">
+					
+					<div class="profile-image"></div>
+				</div>
+
+				<div class="about">
+					<div class="headings">
+						<div class="blocks"></div>
+						<h2>PROFILE</h2>
+						<p>I am an experience graphic designer &#38; i worked as freelancer also on <em>elance.com</em>. I got highest rating and Best feedbacks on my jobs, I have 3 years experience as remote work. I am hard worker always tries to find opportunity to enhance my skill in a good firm. </p>
+						<p> I designed logos, stationaries, bill board, sign board, t-shirt design, line art, sketches,<strong> <em>web layout, web banners, UI Design, </em></strong>&nbsp;books page designs, instructional illustration. please visit my portfolio link :<br><a href="https://www.behance.net/M_A_G_D" title="Portfolio" author="Muhammad Asif" target="_blank">www.behance.net/m_a_g_d</a></p>
+					</div>
+					<hr/>
+                    <address>
+                        <div class="headings details">
+                            <div class="blocks"></div>
+                            <h2>CONTACT ME</h2>
+                            <div class="details-cont">
+                            
+                            <div class="contact-me"><p><span class="email"></span><a href="mailto:creatershaikh60@gmail.com" target="_top">creatershaikh60@gmail.com</a></p>
+                            <p><span class="mobile"></span><a href="tel:00923453543604">+92 345 3543604</a></p>
+                            <p><span class="location"></span><a href="https://www.google.com/maps/@24.9068071,67.0913534,11.25z" target="_top">Karachi Pakistan</a></p>
+                            <p><span class="portfolio"></span><a href="https://www.behance.net/M_A_G_D" title="Portfolio" author="Muhammad Asif" target="_top">www.behance.net/m_a_g_d</a></p>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </address>
+				</div>
+				<div class="bio-data"></div>
+			</aside>
+            <div class="right-border"></div>
+            </div><!-- aside left wrapper -->
+
+			<section class="right">
+
+				<div class="about">
+
+					<div class="headings prof-name">
+						<h1><span>MUHAMMAD ASIF</span></h1>
+							<h2>GRAPHIC &#38; WEB DESIGNER</h2>
+						
+						<hr/>
+					</div>
+                    
+                    <div class="headings softwere">
+						<div class="blocks"></div>
+						<h2>Software &#38; Skills</h2>
+							<ul>
+								<li> Adobe Photoshop cc<br/><span class="photoshop fill-back-color"><span class="fill"><p> 95%</p></span></span></li>
+								<li> Adobe Illustrator cc<br/><span class="illustrator fill-back-color"><span class="fill"><p> 90%</p></span></span></li>
+								<li> Adobe Premier cc<br/><span class="premier fill-back-color"><span class="fill"><p> 50%</p></span></span></li>
+								<li> Adobe After Effects cc<br/><span class="after-effects fill-back-color"><span class="fill"><p> 65%</p></span></span></li>
+								<li> HTML5<br/><span class="html fill-back-color"><span class="fill"><p> 50%</p></span></span></li>
+								<li> CSS3 <br/><span class="css fill-back-color"><span class="fill"><p> 55%</p></span></span></li>
+							</ul>
+					</div>
+
+					<div class="headings objective">
+						<div class="blocks"></div>
+						<h2>Objective</h2>
+						<p>Seeking a Challenging opportunity as a professional, with your progressive company where I can apply my academic and professional knowledge to challenging problems, leading to growth and polishing my skills as a true professional.</p>
+						<hr/>
+					</div>
+						<hr/>
+					<div class="headings experience">
+						<div class="blocks"></div>
+						<h2>Experience</h2>
+							<div class="experience-location"><h3>Print Media<span>2010 - 2012</span></h3>
+							<h5></h5>
+							<p>I have 2 years experience as a graphic designer in a printing press. I worked for many big companies also. I designed logos, stationaries, bill board, sign board, t-shirt design, line art, sketches etc...</p>
+							</div>
+
+							<div class="experience-location"><h3>Graphic Designer and Web Designer<span>2012 - 2015</span></h3>
+							<h5></h5>
+							<p>I have html and css Primary skills and i have good knowledge of <strong><em>web designing and UI&nbsp;</em></strong> Design. i can create and design a website, banners  and newsletters. </p>
+							</div>
+						<hr/>
+					</div>
+                    <div class="headings experience">
+						<div class="blocks"></div>
+						<h2>Education</h2>
+                        	<div class="experience-location ed-padding"><h3>Saylani Mobile Software Development Training<span>Present</span></h3></div>
+							<div class="experience-location edcation"><h3>B.Com<span>2012 - 2014</span></h3></div>
+                            <div class="experience-location ed-padding"><h3>Diploma In Multimedia (Arena Multimedia)<span>2006 - 2007</span></h3></div>
+							<div class="experience-location edcation"><h3>Intermediate<span>2004 - 2006</span></h3></div>
+                            <div class="experience-location ed-padding"><h3>Metric<span>2002 - 2004</span></h3></div>
+						<hr/>
+					</div>
+                    <footer>
+                    	<address>
+                        	<ul>
+                            	<li><p><span>Live Visit: </span><a href="https://htmlclasses.firebaseapp.com/">&nbsp;https://htmlclasses.firebaseapp.com/</a></p></li>
+                            	<li><p><span>Github: </span><a href="https://github.com/MuhammadAsifShaikh/Resume3">&nbsp;https://github.com/MuhammadAsifShaikh/Resume3</a></p></li>
+                            </ul>
+                        </address>
+                    </footer>
+                    
+
+					
+				</div>
+			</section>
+            <div style="clear: both;"></div>
+		</div><!-- wrapper ends-->
+	</body>
+</html>
